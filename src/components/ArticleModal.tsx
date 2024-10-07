@@ -17,7 +17,7 @@ const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose }) => {
           &times;
         </button>
         <h2>{article.title}</h2>
-        <img src={article.imageUrl} alt={article.title} width={500}/>
+        <img src={article.imageUrl} alt={article.title} className="modal-image"/>
         <p>{article.content}</p>
       </div>
     </div>

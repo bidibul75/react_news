@@ -1,12 +1,18 @@
-/* src/App.css */
+/* src/App2.css */
 .app {
     font-family: Arial, sans-serif;
     padding: 20px;
   }
   
+  .logo {
+    font-family: "Newsreader";
+    font-size: 7em;
+    text-align  : center;
+  }
   .article-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
   }
   
@@ -37,10 +43,18 @@
   
   .modal-content {
     background-color: white;
+    text-align: justify;
     padding: 20px;
     border-radius: 8px;
     position: relative;
     width: 600px;
+  }
+  .modal-image {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
   }
   
   .close-button {
@@ -53,3 +67,25 @@
     cursor: pointer;
   }
   
+  .search-bar {
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+
+  body.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  body.dark {
+    background-color: #000000;
+    color: #ffffff;
+  }
+   
+  button {
+    position: relative;
+
+    padding: 7px 15px;
+    font-size: 14px;
+    cursor: pointer;
+  }
