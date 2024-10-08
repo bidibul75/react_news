@@ -25,6 +25,10 @@ const App: React.FC = () => {
     localStorage.setItem('theme', theme);
     document.body.className = theme;
   }, [theme]);
+  
+  useEffect(() => {
+    setFilteredArticles(allArticles);
+  }, [allArticles]);
 
   const toggleTheme = () => {
     dispatch({ type: 'TOGGLE_THEME' });
@@ -36,6 +40,7 @@ const App: React.FC = () => {
     );
     setFilteredArticles(filtered);
   };
+handleSearch;
 
   return (
     <div className="app">
