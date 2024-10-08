@@ -40,8 +40,7 @@ const App: React.FC = () => {
     );
     setFilteredArticles(filtered);
   };
-handleSearch;
-
+  
   return (
     <div className="app">
       <button onClick={toggleTheme}>

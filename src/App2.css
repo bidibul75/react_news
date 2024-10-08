@@ -40,15 +40,6 @@
     justify-content: center;
     align-items: center;
   }
-  
-  .modal_content {
-/*    background-color: white;*/
-    text-align: justify;
-    padding: 20px;
-    border-radius: 8px;
-    position: relative;
-    width: 600px;
-  }
 
   .modal_back_light {
     background-color: white;
@@ -76,16 +67,6 @@
     margin-bottom: 2rem;
   }
   
-  .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  
   .close_button_light {
     position: absolute;
     top: 10px;
@@ -95,7 +76,6 @@
     font-size: 20px;
     cursor: pointer;
     color: black;
-
   }
 
   .close_button_dark {
@@ -104,10 +84,9 @@
     right: 10px;
     background: none;
     border: none;
-    font: 20px, white;
+    font-size: 20px;
     cursor: pointer;
     color: white;
-
   }
 
   .search-bar {
