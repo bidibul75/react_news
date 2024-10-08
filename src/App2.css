@@ -41,7 +41,16 @@
     align-items: center;
   }
   
-  .modal-content {
+  .modal_content {
+/*    background-color: white;*/
+    text-align: justify;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    width: 600px;
+  }
+
+  .modal_back_light {
     background-color: white;
     text-align: justify;
     padding: 20px;
@@ -49,6 +58,16 @@
     position: relative;
     width: 600px;
   }
+
+  .modal_back_dark {
+    background-color: black;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    width: 600px;
+  }
+
   .modal-image {
     width: 500px;
     display: block;
@@ -67,6 +86,30 @@
     cursor: pointer;
   }
   
+  .close_button_light {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+
+  }
+
+  .close_button_dark {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font: 20px, white;
+    cursor: pointer;
+    color: white;
+
+  }
+
   .search-bar {
     margin-bottom: 20px;
     margin-left: 50px;
